@@ -1,0 +1,46 @@
+{{#extends "base"}}
+  {{#block "content"}}
+
+    <form method="POST">
+      <div>
+        <label class="form-label">Food Name: </label>
+        <input type="text" class="form-control" name="foodRecordName" />
+
+        <label class="form-label">Calories: </label>
+        <input type="text" class="form-control" name="calories" />
+
+        <label class="form-label">Tags:</label>
+        <input
+          type="checkbox"
+          name="tags"
+          value="vegan"
+          class="form-check-input"
+        />
+        <label class="form-check-label">Vegan</label>
+        <input
+          type="checkbox"
+          name="tags"
+          value="meat-lover"
+          class="form-check-input"
+        /><label class="form-check-label">Meat Lover</label>
+        <input
+          type="checkbox"
+          name="tags"
+          value="healthy"
+          class="form-check-input"
+        /><label class="form-check-label">Healthy</label>
+        <input
+          type="checkbox"
+          name="tags"
+          value="fast-food"
+          class="form-check-input"
+        /><label class="form-check-label">Fast Food</label>
+
+        <input type="submit" value="Add Food" class="btn btn-primary" />
+        <!--<button type="submit">Add Food</button>-->
+      </div>
+
+    </form>
+
+  {{/block}}
+{{/extends}}

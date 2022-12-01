@@ -1,0 +1,31 @@
+{
+  "name": "lab8a-mongo-express",
+  "version": "1.0.0",
+  "description": "Exercise for MongoDB and Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smdewi/lab8A-mongo-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smdewi/lab8A-mongo-express/issues"
+  },
+  "homepage": "https://github.com/smdewi/lab8A-mongo-express#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "handlebars-helpers": "^0.10.0",
+    "hbs": "^4.2.0",
+    "mongodb": "^4.12.1",
+    "wax-on": "^1.2.2"
+  }
+}
